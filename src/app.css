@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---- Global app styling (white premium theme, teal-tinted neutrals) ---- */
+
+ActionBar {
+  background-color: #f7fbfa;
+  color: #122622;
+}
+
+/* Page surface: slightly tinted so white cards read as real surfaces */
+.page {
+  background-color: #f7fbfa;
+}
+
+.tabbar {
+  background-color: #ffffff;
+  border-top-color: #d3e3e0;
+}
+
+.tab-item {
+  color: #63837d;
+}
+
+.tab-item-active {
+  color: #0c756c;
+}
+
+.card {
+  background-color: #ffffff;
+  border-color: #e0ebe8;
+}
